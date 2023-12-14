@@ -6,7 +6,7 @@ This guide is assembled from various sources to assist enthusiasts (taffers) in 
 
 - Ensure that Steam is installed and set up on your PC.
 
-- Install: `wine`
+- Install `wine` by following the guide : <https://wiki.winehq.org/Wine_Installation_and_Configuration>
 
 - Configure Steam to use Proton `7.0-6`
 
@@ -18,16 +18,17 @@ This guide is assembled from various sources to assist enthusiasts (taffers) in 
    - Thief 1/Gold: [Thief 1/Gold Patch](https://www.ttlg.com/forums/showthread.php?t=134733)
    - Thief 2: [Thief 2 Patch](https://www.ttlg.com/forums/showthread.php?t=149669)
 
-4. Use wine to run the downloaded patch installer from the ttgl website.
-   - For example: `wine T2Fix.exe`
-   - In the wine installer, navigate to your Thief installation directory.
+4. Use `wine` to run the downloaded patch installer from the ttgl website.
+   - For example you could run this command : `wine T2Fix.exe`
+   - This will launch the installer like it would on a Windows PC.
+   - In the installer, navigate to your Thief installation directory.
    - If the folder starts with a `.` and is hidden, locate it in a terminal and copy the path into the setup.
      - Thief Gold: `[/home/{yourname}/.local/share/Steam/steamapps/common/thief_gold)`
      - Thief 2: `[/home/{yourname}/.local/share/Steam/steamapps/common/thief_2)`
 
-5. Try running the game for the first time and address any issues that may arise.
+5. Once the setup is over, try running the game for the first time and address any issues that may arise.
 6. Adjust keybindings as needed in the game options.
-7. Be mindful of potential mouse acceleration issues caused by your OS.
+7. Be mindful of potential mouse acceleration issues caused by your OS settings.
 
 ## Preparing Your Home Directory for Fan Missions
 
@@ -37,10 +38,9 @@ Create folders that will be utilized by AngelLoader to load your Fan Missions.
 cd
 mkdir thief_fm
 mkdir thief_bak
-
 ```
 
-`thief_fm` will be the folder to drop any fm .zip file.\
+`thief_fm` will be the folder to drop any fm `.zip` file.\
 `thief_bak` is used by AngelLoader to prevent you from breaking your thief game.
 
 ## Setup AngelLoader
