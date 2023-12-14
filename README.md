@@ -18,7 +18,8 @@ This guide is assembled from various sources to assist enthusiasts (taffers) in 
    - Thief 1/Gold: [Thief 1/Gold Patch](https://www.ttlg.com/forums/showthread.php?t=134733)
    - Thief 2: [Thief 2 Patch](https://www.ttlg.com/forums/showthread.php?t=149669)
 
-4. Use wine to run the downloaded patch installer from the ttgl website. For example: `wine T2Fix.exe`
+4. Use wine to run the downloaded patch installer from the ttgl website.
+   - For example: `wine T2Fix.exe`
    - In the wine installer, navigate to your Thief installation directory.
    - If the folder starts with a `.` and is hidden, locate it in a terminal and copy the path into the setup.
      - Thief Gold: `[/home/{yourname}/.local/share/Steam/steamapps/common/thief_gold)`
