@@ -23,8 +23,8 @@ This guide is assembled from various sources to assist enthusiasts (taffers) in 
    - This will launch the installer like it would on a Windows PC.
    - In the installer, navigate to your Thief installation directory.
    - If the folder starts with a `.` and is hidden, locate it in a terminal and copy the path into the setup.
-     - Thief Gold: `[/home/{yourname}/.local/share/Steam/steamapps/common/thief_gold)`
-     - Thief 2: `[/home/{yourname}/.local/share/Steam/steamapps/common/thief_2)`
+     - Thief Gold: `/home/{yourname}/.local/share/Steam/steamapps/common/thief_gold`
+     - Thief 2: `/home/{yourname}/.local/share/Steam/steamapps/common/thief_2`
 
 5. Once the setup is over, try running the game for the first time and address any issues that may arise.
 6. Adjust keybindings as needed in the game options.
