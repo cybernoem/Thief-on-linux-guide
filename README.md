@@ -51,7 +51,7 @@ This setup might not be optimal, but it offers an enjoyable way to keep recordin
 - Now into your game folder and backup the main `THIEF.exe` file into something else. Ex : `THIEF_GAME.EXE`
 - Extract the `AngelLoader` zip into the game folder and rename the `AngelLoader.exe` file into `THIEF.EXE`
 - Now you can launch `AngelLoader` from Steam directly by starting the game.
-- Setup `AngelLoader`` with the right paths.
+- Setup `AngelLoader` with the right paths.
   - Thief 1 Path : `Z:\home\{yourname}\.local\share\Steam\steamapps\common\thief_gold\THIEF_GAME.EXE`
   - Fm folder: `Z:\home\{yourname}\thief_fm`
   - backup: `Z:\home\{yourname}\thief_bak`
